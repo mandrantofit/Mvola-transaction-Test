@@ -23,14 +23,14 @@ MVOLA_TOKEN_URL=https://devapi.mvola.mg/token
 ```
 ---
 
-## Installation des paquets
+## Installation des packages
 
 ```bash
 npm install
 ```
 
-## Requetes à utiliser
-
+## Endpoints disponibles
+  Initialisez le token avant de faire une transaction
 ```bash
 curl http://localhost:3000/token
 ```
