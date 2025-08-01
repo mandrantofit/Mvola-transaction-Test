@@ -33,7 +33,11 @@ npm install
 
 ```bash
 curl http://localhost:3000/token
-//{"access_token":".....","expires_in":3600}
+```
+Message de retour :{"access_token":".....","expires_in":3600}
+
+```bash
 curl-X POST http://localhost:3000/payer -H "Content-Type: application/json" -d '{}
-//{"message":"Transaction sandbox initiée","data":{"status":"pending","serverCorrelationId":"...","notificationMethod":"polling"}
+```
+Message de retour :{"message":"Transaction sandbox initiée","data":{"status":"pending","serverCorrelationId":"...","notificationMethod":"polling"}
 ```
