@@ -20,14 +20,14 @@ Il permet de générer un token OAuth et d'initier une transaction de paiement s
 MVOLA_CONSUMER_KEY=ta_consumer_key_ici
 MVOLA_CONSUMER_SECRET=ton_consumer_secret_ici
 MVOLA_TOKEN_URL=https://devapi.mvola.mg/token
-
+```
 ---
 
 ## Installation des paquets
 
 ```bash
 npm install
-
+```
 
 ## Requetes à utiliser
 
@@ -36,3 +36,4 @@ curl http://localhost:3000/token
 //{"access_token":".....","expires_in":3600}
 curl-X POST http://localhost:3000/payer -H "Content-Type: application/json" -d '{}
 //{"message":"Transaction sandbox initiée","data":{"status":"pending","serverCorrelationId":"...","notificationMethod":"polling"}
+```
